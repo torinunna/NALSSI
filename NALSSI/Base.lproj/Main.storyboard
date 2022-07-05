@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="EZk-pb-De1" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iiS-M2-MsR">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
@@ -86,6 +90,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seoul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4q-d2-lDG">
                                         <rect key="frame" x="301" y="309.5" width="73" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7N-Yg-jb5">
@@ -110,22 +115,22 @@
                     <connections>
                         <outlet property="cityLabel" destination="Q4q-d2-lDG" id="OGR-9b-KT9"/>
                         <outlet property="conditionImageView" destination="NrF-cF-ThD" id="YBI-OJ-PhH"/>
-                        <outlet property="searchTextField" destination="sGM-MT-aXd" id="gq7-uT-hYm"/>
-                        <outlet property="serachTextField" destination="sGM-MT-aXd" id="inN-jB-n9s"/>
+                        <outlet property="serachTextField" destination="sGM-MT-aXd" id="XaP-fF-0wR"/>
                         <outlet property="temperatureLabel" destination="Q4q-d2-lDG" id="gL8-fn-nUw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42p-MD-0z4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="118"/>
+            <point key="canvasLocation" x="134.78260869565219" y="89.732142857142847"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="566" height="800"/>
         <image name="location.circle.fill" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="sun.max" catalog="system" width="128" height="124"/>
         <namedColor name="weatherColor">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.69096601010000003" green="0.1964851618" blue="0.038264699280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
