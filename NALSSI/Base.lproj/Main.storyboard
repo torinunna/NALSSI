@@ -54,7 +54,7 @@
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
                                                 <connections>
-                                                    <action selector="searchPressed:" destination="cC1-Zm-l5M" eventType="touchUpInside" id="Tru-2J-QSf"/>
+                                                    <action selector="searchPressed:" destination="cC1-Zm-l5M" eventType="touchUpInside" id="gGm-3d-xxK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
