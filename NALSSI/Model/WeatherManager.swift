@@ -20,10 +20,10 @@ struct WeatherManager {
     
     func fetchWeater(cityName: String) {
         let urlString = "\(weatherURL)&q=\(cityName)"
-        performRequest(urlString: urlString)
+        performRequest(with: urlString)
     }
     
-    func performRequest(urlString: String) {
+    func performRequest(with urlString: String) {
         
         if let url = URL(string: urlString) {
             let session = URLSession(configuration: .default)
