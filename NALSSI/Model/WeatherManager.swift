@@ -56,6 +56,7 @@ struct WeatherManager {
         
         } catch {
             print(error)
+            return nil
         }
     }
 
