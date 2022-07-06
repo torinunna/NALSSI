@@ -115,8 +115,8 @@
                     <connections>
                         <outlet property="cityLabel" destination="Q4q-d2-lDG" id="OGR-9b-KT9"/>
                         <outlet property="conditionImageView" destination="NrF-cF-ThD" id="YBI-OJ-PhH"/>
-                        <outlet property="serachTextField" destination="sGM-MT-aXd" id="XaP-fF-0wR"/>
-                        <outlet property="temperatureLabel" destination="Q4q-d2-lDG" id="gL8-fn-nUw"/>
+                        <outlet property="searchTextField" destination="sGM-MT-aXd" id="akd-D9-xhB"/>
+                        <outlet property="temperatureLabel" destination="8Bp-4j-Yw3" id="fZK-Ba-SKN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42p-MD-0z4" sceneMemberID="firstResponder"/>
@@ -130,7 +130,7 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="sun.max" catalog="system" width="128" height="124"/>
         <namedColor name="weatherColor">
-            <color red="0.69096601010000003" green="0.1964851618" blue="0.038264699280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.69099998474121094" green="0.19599999487400055" blue="0.037999998778104782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
