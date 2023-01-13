@@ -1,16 +1,8 @@
 # NALSSI
-Check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city
+GPS data를 이용한 현재 위치 또는 위치 검색을 통해 날씨를 체크할 수 있습니다.
 
-- Dark-mode enabled app.
-- Vector images as image assets.
-- the UITextField to get user input.
-- Delegate pattern.
-- Swift protocols and extensions.
-- Swift guard keyword.
-- Swift computed properties.
-- Swift closures and completion handlers.
-- URLSession to network and make HTTP requests.
-- Parse JSON with the native Encodable and Decodable protocols.
-- Grand Central Dispatch to fetch the main thread.
-- Core Location to get the current location from the phone GPS.
-
+- Storyboard로 UI 구현
+- Vector Image를 사용하여 다크모드의 적용
+- OpenWeather API를 이용한 날씨 정보 구현
+- URLSession을 사용한 네트워크 통신 및 HTTP 요청
+- Core Location을 적용하여 현재 위치 정보
