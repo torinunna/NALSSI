@@ -1,5 +1,5 @@
 # NALSSI
-GPS data를 이용한 현재 위치 또는 위치 검색을 통해 날씨 체크
+GPS data를 기반으로 한 현재 위치의 날씨 또는 위치 검색을 통해 날씨를 확인
 
 - Storyboard로 UI 구현
 - Vector Image를 사용하여 Light/Dark 모드에서의 UI 구별
